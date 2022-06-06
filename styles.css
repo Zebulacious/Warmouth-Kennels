@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.body {
+    margin-left: 325px;
+    margin-right: 325px;
+}
 .header {
     height: 200px;
     width: auto;
@@ -7,4 +17,19 @@
 .header_img {
     height: 350px;
     width: auto;
+}
+
+.footer {
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer_text {
+    flex-grow: 1;
+}
+
+.footer_text_to_right {
+    text-align: right;
 }
