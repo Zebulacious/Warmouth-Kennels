@@ -10,10 +10,13 @@
     margin-bottom: 0px;
 }
 
+/*.for_picture {
+    background-image: url("https://unsplash.it/1304/186/?blur");
+} */
+
 .header {
     display: flex;
     height: 80px;
-    background-color: gray;
     flex-grow: 1;
 }
 
@@ -46,12 +49,29 @@
 .header_title {
     text-align: center;
     margin-top: 0px;
-    background-color: gray;
     font-size: 80px;
     font-weight: bolder;
     padding-top: 12px;
 }
 
+.homepage_main_sec {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.homepage_main_sec_left {
+    flex-grow: 1;
+}
+
+.homepage_main_sec_right {
+    flex-grow: 1;
+}
+
+.homepage_main_img {
+    height: 300px;
+    width: auto;
+    margin-top: 16px;
+}
 
 
 
