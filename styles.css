@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 * {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(223, 217, 217);
+}
+
+div {
+    background-color: #1F2937;
+}
+
+p  {
+    background-color: #1F2937;
+}
+
+h1 {
+    background-color: #1F2937;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+a {
+    background-color: #1F2937;
 }
 
 .body {
@@ -11,7 +32,10 @@
 }
 
 /*.for_picture {
-    background-image: url("https://unsplash.it/1304/186/?blur");
+    background-image: url("pictures/272012883_130260829503033_4650474038357763886_n\ \(1\).jpg");
+    height: 186px;
+    width: 1304px; 
+    background-image: url("https://unsplash.it/1304/186/?blur"); 
 } */
 
 .header {
@@ -29,7 +53,7 @@
 .header_left_text {
     font-size: 24px;
     margin-left: 64px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .item_header_right {
@@ -44,6 +68,7 @@
 .link_style {
     text-decoration: none;
     font-size: 26px;
+    color: aqua;
 }
 
 .header_title {
@@ -52,27 +77,50 @@
     font-size: 80px;
     font-weight: bolder;
     padding-top: 12px;
+    margin: 0px;
+    padding-bottom: 18px;
+    color: white;
 }
 
 .homepage_main_sec {
     display: flex;
     background-color: #1F2937;
+    height: 600px;
+    width: auto;
 }
 
 .homepage_main_sec_left {
     flex-grow: 1;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.homepage_main_sec_mid {
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .homepage_main_sec_right {
     flex-grow: 1;
 }
 
-.homepage_main_img {
-    height: 300px;
-    width: auto;
-    margin-top: 16px;
+.homepage_main_sec_big_text {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: #1F2937;
 }
 
+.homepage_main_img {
+    height: 350px;
+    width: auto;
+    margin-top: 16px;
+} 
 
 
 .footer {
