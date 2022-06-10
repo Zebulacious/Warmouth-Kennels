@@ -54,6 +54,7 @@ a {
     font-size: 24px;
     margin-left: 64px;
     font-weight: bolder;
+    color: white;
 }
 
 .item_header_right {
@@ -78,8 +79,31 @@ a {
     font-weight: bolder;
     padding-top: 12px;
     margin: 0px;
-    padding-bottom: 18px;
+    padding-bottom: 12px;
     color: white;
+}
+
+.are_offer {
+    display: flex;
+    background-color: #1F2937;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.are_offer_text {
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+.are_offer_inner {
+    flex-grow: 1;
+}
+
+.right_text {
+    text-align: right;
 }
 
 .homepage_main_sec {
@@ -93,6 +117,8 @@ a {
     flex-grow: 1;
     color: white;
     font-size: 18px;
+    width: 390px;
+    height: auto;
     
 }
 
@@ -105,7 +131,12 @@ a {
 }
 
 .homepage_main_sec_right {
+    display: flex;
     flex-grow: 1;
+    width: 390px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 .homepage_main_sec_big_text {
@@ -114,6 +145,12 @@ a {
     color: white;
     text-align: center;
     background-color: #1F2937;
+    padding: 4px;
+    line-height: 40px;
+}
+
+.spacing_right {
+    margin-bottom: 0px;
 }
 
 .homepage_main_img {
@@ -121,6 +158,55 @@ a {
     width: auto;
     margin-top: 16px;
 } 
+
+.sect3text {
+    display: flex;
+    flex-grow: 1.5;
+    background-color: #3882F6;
+    flex-direction: column;
+    border-radius: 6px;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.text {
+    color: #E5E7EB;
+    font-size: 22px;
+    background-color: #3882F6;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+
+.textv2 {
+    margin-top: 22px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.sect3button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #3882F6;
+    margin-right: 50px;
+}
+
+.ctaButton {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
+    border: 2px solid #E5E7EB;
+}
 
 
 .footer {
