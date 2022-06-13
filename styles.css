@@ -134,10 +134,10 @@ a {
     font-weight: bold;
     font-size: 18px;
     color: white;
-    text-align: center;
     background-color: #1F2937;
     padding: 4px;
     line-height: 40px;
+    margin-left: 17%;
 }
 
 .main_column {
@@ -307,6 +307,16 @@ hr {
     text-align: right;
 }
 
+li {
+    padding-left:1em;
+    color:#f00; /* red bullet */
+}
+li span {
+    display:block;
+    margin-left:-0.5em;
+    color:#000; /* black text */
+}
+
 @media screen and (max-width: 600px){
     * {
         background: red;
@@ -344,5 +354,25 @@ hr {
 
     .sect3text {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 683px){
+    .homepage_main_img {
+        height: 250px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 493px){
+    .homepage_main_img {
+        height: 175px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 500px){
+    . {
+      
     }
 }
