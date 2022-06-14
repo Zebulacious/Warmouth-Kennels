@@ -96,7 +96,7 @@ a {
     font-size: 50px;
     font-weight: bolder;
     color: white;
-    margin-top: 20%;
+    margin-top: 12%;
     margin-bottom: 0%;
 }
 
@@ -371,8 +371,50 @@ li span {
     }
 }
 
+@media screen and (max-width: 1196px){
+    .homepage_main_sec_big_text {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 555px){
+    .aboutpic {
+        height: 300px;
+        width: auto;
+    }
+
+    .homepage_main_sec {
+        justify-content: center;
+    }
+
+    .bot_pic {
+        margin: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 502px){
+    .header_title {
+        font-size: 65px;
+    }
+}
+
+@media screen and (max-width: 396px){
+    .header_title {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 532px){
+    .bot_left {
+        font-size: 24px;
+    }
+}
+
 @media screen and (max-width: 500px){
-    . {
-      
+    .bot_left {
+        font-size: 21px;
     }
 }
