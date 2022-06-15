@@ -317,10 +317,8 @@ li span {
     color:#000; /* black text */
 }
 
-@media screen and (max-width: 600px){
-    * {
-        background: red;
-    }
+.contact_main {
+    text-align: center;
 }
 
 @media screen and (max-width: 644px){
@@ -416,5 +414,11 @@ li span {
 @media screen and (max-width: 500px){
     .bot_left {
         font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .text {
+        font-size: 18px;
     }
 }
